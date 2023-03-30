@@ -15,6 +15,8 @@ systemd-timesync:x:976:976:systemd Time Synchronization:/:/usr/bin/nologin
 tss:x:975:975:tss user for tpm2:/:/usr/bin/nologin
 uuidd:x:68:68::/:/usr/bin/nologin
 dhcpcd:x:974:974:dhcpcd privilege separation:/:/usr/bin/nologin
-alarm:x:1000:1000::/home/alarm:/bin/bash
+alarm:x:1000:1000::/home/alarm:/sbin/bash
 chrony:x:973:973:Network Time Protocol:/var/lib/chrony:/usr/bin/nologin
 polkitd:x:102:102:PolicyKit daemon:/:/usr/bin/nologin
+git:x:972:972:git daemon user:/:/usr/bin/git-shell
+opsstudent:x:1001:984::/home/opsstudent:/bin/bash

@@ -48,3 +48,5 @@ dhcpcd:x:974:
 alarm:x:1000:
 chrony:x:973:
 polkitd:x:102:
+locate:x:21:
+git:x:972:

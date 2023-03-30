@@ -48,3 +48,5 @@ dhcpcd:!*::
 alarm:!::
 chrony:!*::
 polkitd:!*::
+locate:!*::
+git:!*::

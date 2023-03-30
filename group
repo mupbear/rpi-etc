@@ -14,7 +14,7 @@ scanner:x:96:
 power:x:98:
 nobody:x:65534:
 adm:x:999:daemon
-wheel:x:998:alarm
+wheel:x:998:alarm,opsstudent
 utmp:x:997:
 audio:x:996:
 disk:x:995:
