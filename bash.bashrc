@@ -23,6 +23,7 @@ if [[ -r /usr/share/bash-completion/bash_completion ]]; then
   . /usr/share/bash-completion/bash_completion
 fi
 
+
 alias rm='rm -i'
 alias mv='mv -i'
 alias cp='cp -ip'
