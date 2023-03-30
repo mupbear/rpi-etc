@@ -10,7 +10,7 @@
 # possible, but leave them commented.  Uncommented options override the
 # default value.
 
-Port 32123
+#Port 32123
 #AddressFamily any
 #ListenAddress 0.0.0.0
 #ListenAddress ::
@@ -29,7 +29,7 @@ Port 32123
 # Authentication:
 
 #LoginGraceTime 2m
-PermitRootLogin no
+#PermitRootLogin no
 #StrictModes yes
 #MaxAuthTries 6
 #MaxSessions 10
@@ -83,7 +83,6 @@ UsePAM yes
 
 #AllowAgentForwarding yes
 #AllowTcpForwarding yes
-AllowUsers opsstudent
 #GatewayPorts no
 #X11Forwarding no
 #X11DisplayOffset 10
